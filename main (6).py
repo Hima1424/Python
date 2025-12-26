@@ -1,0 +1,13 @@
+s = [1,2,3,4,5,7]
+
+k=2
+k=k%len(s)
+
+res=s[len(s)-k:]+s[:len(s)-k]
+print(res)
+
+
+
+
+
+
