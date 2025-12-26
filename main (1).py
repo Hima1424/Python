@@ -1,0 +1,4 @@
+s={1,3,4,32,6}
+for num in s:
+    print(num,(hash(num)%len(s)))
+print(s)
