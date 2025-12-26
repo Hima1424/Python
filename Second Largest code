@@ -1,0 +1,17 @@
+s=[1,54,6,3,7]
+F_lar=float("-inf")
+S_lar=F_lar
+for num in s:
+    if num > F_lar:
+        S_lar=F_lar
+        F_lar=num
+  
+    elif num < F_lar and num > S_lar: 
+        S_lar=num
+
+print("Second Largest",S_lar)
+
+
+
+//Output
+Second Largest 7
