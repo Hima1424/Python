@@ -1,0 +1,12 @@
+n = [1, 8, 75, 4, 6, 24, 18, 57]
+even = []
+odd = []
+
+for i in n:
+    if (i % 2) == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print(f"even number :{even}")
+print(f"dd numbers: {odd}")
